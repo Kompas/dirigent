@@ -89,7 +89,7 @@ git clone https://github.com/Kompas/dirigent && cd dirigent
 bash test/weigh.sh my-tasks.txt
 ```
 
-Put one task per line in the file. A fresh Opus session says small or large for each and names the criterion. Nothing is executed. You read whether you agree. If you don't, the rule is 20 lines of text and you can edit it.
+Put one task per line in the file. A fresh Opus session says small or large for each and names the criterion. Nothing is executed. You read whether you agree. If you don't, the rule is 18 lines of text and you can edit it.
 
 What I measured, and what I didn't, is in [`RESULTS.md`](RESULTS.md).
 
