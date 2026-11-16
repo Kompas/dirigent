@@ -1,0 +1,24 @@
+{
+  "name": "dirigent",
+  "version": "0.2.0",
+  "description": "Opus weighs each task as small or large. A large one gets Fable 5.2 as planner and reviewer, cheaper models as workers, and one round of questions up front.",
+  "author": {
+    "name": "Kompas",
+    "url": "https://github.com/Kompas"
+  },
+  "homepage": "https://github.com/Kompas/dirigent",
+  "repository": "https://github.com/Kompas/dirigent",
+  "license": "MIT",
+  "keywords": [
+    "orchestration",
+    "subagents",
+    "fable",
+    "opus",
+    "model-routing",
+    "skill",
+    "claude-code"
+  ],
+  "skills": [
+    "."
+  ]
+}

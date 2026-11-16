@@ -1,9 +1,9 @@
 ## Weigh the task: small or large
 
-Weigh every new task before you start and say in one line what you are doing:
+Weigh every new task before you start and say in one line, in the user's language, what you are doing. This is for the main session; a subagent that was handed a task just does it.
 
 - **Small** (fits in one session, no independent parts): `Small: I'll do it myself.` and do it.
-- **Large** (won't fit in one session, or three or more independent parts, or touches several subsystems or repos, or a design choice with several serious routes): `Large: Fable plans, workers build, Fable reviews.`, then load the `dirigent` skill and follow it.
+- **Large** (won't fit in one session, or three or more independent parts, or touches several subsystems or repos, or a design choice with several serious routes): `Large: Fable plans, workers build, Fable reviews.`, then load the `dirigent` skill (listed as `dirigent:dirigent` when installed as a plugin) and follow it.
 
 A question, a measurement, a lookup or a single bug fix is small, even when the subject is complicated. In doubt, small; if it grows, switch over and say so.
 

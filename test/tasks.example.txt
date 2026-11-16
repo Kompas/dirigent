@@ -1,0 +1,4 @@
+Why does the login test fail on CI but not locally?
+Move every v1 endpoint to /v2, keep the old paths working, update the customer docs and the tests.
+What was yesterday's error rate per region?
+Add an optional `currency` parameter to the price endpoint, with a test and a line in the docs.

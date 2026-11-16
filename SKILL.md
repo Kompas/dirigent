@@ -1,6 +1,6 @@
 ---
 name: dirigent
-description: "Use when a task is weighed as large under the task-weighing rule in the global CLAUDE.md ('Weigh the task' / 'Taak wegen': will not fit one session, has three or more independent parts, or spans several subsystems or repos), when the user types /dirigent or says 'large' or 'groot', or when an /ambition brief has just been picked and must now be carried out."
+description: "Use when a task is weighed as large under the task-weighing rule ('Weigh the task' / 'Taak wegen', from this plugin's session hook or the user's CLAUDE.md: will not fit one session, has three or more independent parts, or spans several subsystems or repos), when the user types /dirigent or says 'large' or 'groot', or when an /ambition brief has just been picked and must now be carried out."
 ---
 
 # Dirigent
@@ -25,7 +25,7 @@ Read the code, CLAUDE.md, memory and brain documents the task touches. Then ask 
 - Give a recommended option first for each.
 - The last question is always: "Is there anything I should know that isn't written down anywhere?" (domain knowledge, a customer promise, something tried before).
 
-**Ambition question.** One of the (at most 4) questions offers a single upgrade. Find it with the Think steps of the `ambition` skill (read `~/.claude/skills/ambition/SKILL.md`; do not print its output contract): the one deeper version of the task with the best payoff for its cost, and its judge. Ask it as:
+**Ambition question.** One of the (at most 4) questions offers a single upgrade. Find it the way the `ambition` skill does (if it is installed, use its Think steps; do not print its output contract): ask what should happen after this task is done, what a field-leading professional would do that was not asked, and which other field does the same verbs. Keep the one deeper version of the task with the best payoff for its cost, and its judge. Ask it as:
 
 - Question: "Do you want to raise the bar?"
 - Option 1: "No, just the task"

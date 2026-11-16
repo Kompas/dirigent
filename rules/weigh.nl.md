@@ -3,7 +3,7 @@
 Weeg elke nieuwe taak voordat je begint en zeg in één regel wat je doet:
 
 - **Klein** (past in één sessie, geen onafhankelijke delen): `Klein: doe ik zelf.` en doe het.
-- **Groot** (past niet in één sessie, óf drie of meer onafhankelijke delen, óf raakt meerdere subsystemen of repos, óf een ontwerpkeuze met meerdere serieuze routes): `Groot: Fable maakt het plan, werkers bouwen, Fable controleert.`, laad dan de skill `dirigent` en volg die.
+- **Groot** (past niet in één sessie, óf drie of meer onafhankelijke delen, óf raakt meerdere subsystemen of repos, óf een ontwerpkeuze met meerdere serieuze routes): `Groot: Fable maakt het plan, werkers bouwen, Fable controleert.`, laad dan de skill `dirigent` (als plugin: `dirigent:dirigent`) en volg die.
 
 Een vraag, een meting, een opzoekactie of één bugfix is klein, ook als het onderwerp ingewikkeld is. Twijfel = klein; loopt het uit, schakel dan alsnog over en zeg dat.
 
