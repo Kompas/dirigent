@@ -1,6 +1,6 @@
 {
   "name": "dirigent",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Opus weighs each task as small or large. A large one gets Fable 5.2 as planner and reviewer, cheaper models as workers, and one round of questions up front.",
   "author": {
     "name": "Kompas",

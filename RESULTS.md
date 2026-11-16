@@ -15,7 +15,7 @@ A control session without the rule and without the plugin answered `RULE_VISIBLE
 
 In both tests the session was asked to apply the rule. Separately, a normal session in another project opened with its 1-line verdict without being asked, and switched to large when I typed the word.
 
-On the large task the English run added a caveat: the rule doesn't define "independent", and with only a few endpoints "in doubt, small" could apply.
+On the large task both English runs added a caveat: the rule didn't define "independent". Since 0.2.1 it does: parts that different workers could build at the same time. The English rule was tested twice, once loaded with `--plugin-dir` and once installed from the marketplace, with the same 4 of 4.
 
 ## One real run
 
